@@ -10,5 +10,12 @@ namespace complexe_voorbeeld_inheritance_geometry
     {
         // de Width eigenschap zat nog niet in de base class
         public int Width { get; set; }
+
+        // constructor voor Rectangle
+        public Rectangle(int height, string color) : base(height, color)
+        {
+
+        }
+            
     }
 }

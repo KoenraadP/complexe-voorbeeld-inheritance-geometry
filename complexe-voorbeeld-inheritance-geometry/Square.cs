@@ -8,6 +8,9 @@ namespace complexe_voorbeeld_inheritance_geometry
 {
     class Square : Rectangle
     {
+        public Square(int side, string color) : base(side, color)
+        {
 
+        }
     }
 }

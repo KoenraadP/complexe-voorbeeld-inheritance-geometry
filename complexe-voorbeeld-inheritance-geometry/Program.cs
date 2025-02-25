@@ -14,8 +14,7 @@ namespace complexe_voorbeeld_inheritance_geometry
             //r.Color = "Red";
             //Console.WriteLine(r.Color);
 
-            Polygon p = new Polygon(10);
-            p.Color = "Blue";
+            Polygon p = new Polygon(10, "Blue");
             Console.WriteLine(p.Color);
 
         }

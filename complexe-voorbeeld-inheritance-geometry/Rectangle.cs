@@ -12,10 +12,23 @@ namespace complexe_voorbeeld_inheritance_geometry
         public int Width { get; set; }
 
         // constructor voor Rectangle
-        public Rectangle(int height, string color) : base(height, color)
+        public Rectangle(int height, int width,  string color) 
+            : base(height, color)
         {
-
+            Width = width;
         }
-            
+
+        // methode om de oppervlakte van een rechthoek te berekenen
+        public int CalculateArea()
+        {
+            return Height * Width;
+        }
+
+        // methode om de omtrek van een rechthoek te berekenen
+        public int CalculatePerimeter()
+        {
+            return 2 * (Height + Width);
+        }
+
     }
 }

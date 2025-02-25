@@ -8,6 +8,8 @@ namespace complexe_voorbeeld_inheritance_geometry
 {
     // polygon = veelhoek
     // base class voor rechthoek en driehoek
+    // Polygon krijgt hierdoor automatisch al
+    // de property Color
     class Polygon : Shape
     {
         // alle veelhoeken krijgen de property Height

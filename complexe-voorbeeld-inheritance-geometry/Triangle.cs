@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace complexe_voorbeeld_inheritance_geometry
 {
-    class Triangle
+    class Triangle : Polygon
     {
+        public int Height { get; set; }
+        public int Base { get; set; }
+        public int Side2 { get; set; }
+        public int Side3 { get; set; }  
     }
 }

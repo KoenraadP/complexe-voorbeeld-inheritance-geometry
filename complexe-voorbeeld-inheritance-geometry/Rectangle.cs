@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace complexe_voorbeeld_inheritance_geometry
 {
-    class Rectangle
+    class Rectangle : Polygon
     {
+        // de Width eigenschap zat nog niet in de base class
+        public int Width { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace complexe_voorbeeld_inheritance_geometry
 {
-    class Square
+    class Square : Rectangle
     {
+
     }
 }
